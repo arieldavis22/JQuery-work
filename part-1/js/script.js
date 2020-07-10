@@ -1,11 +1,6 @@
 $(function () {
   // Fade out element over 2000ms
-  $(".red-box").fadeTo(1000, 0.2);
-  $('.green-box').fadeTo(1000, 0.5)
-  $('.blue-box').fadeTo(1000, 0.8)
-
-  $('.red-box').fadeToggle()
-  $('.red-box').fadeToggle()
+  $('.blue-box').hide(1000) 
 });
 
 
