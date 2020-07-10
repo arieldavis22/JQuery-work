@@ -1,6 +1,8 @@
 $(function () {
   // Fade out element over 2000ms
-  $('.blue-box').hide(1000) 
+  $('.blue-box').slideToggle(1000)
+
+  $('p').hide().slideDown(1000)
 });
 
 
