@@ -1,15 +1,7 @@
 $(function () {
-  $('.blue-box').animate({
-    "margin-left": "+=200px",
-    "opacity": "0",
-    "height": "50px",
-    "width": "50px",
-    "margin-top": "25px"
-  }, 1000)
-
-  $("p").animate({
-    fontSize: "20px"
-  }, 1000)
+  $('.red-box').fadeTo(1000, 0.2)
+  $('.green-box').delay(1000).fadeTo(1000, 0.5)
+  $('.blue-box').delay(2000).fadeTo(1000, 0.7)
 
 });
 
@@ -67,4 +59,16 @@ $(function () {
   // }, 1000)
   // .animate({
   //   "margin-left": "-=200px"
+  // }, 1000)
+
+  // $('.blue-box').animate({
+  //   "margin-left": "+=200px",
+  //   "opacity": "0",
+  //   "height": "50px",
+  //   "width": "50px",
+  //   "margin-top": "25px"
+  // }, 1000)
+
+  // $("p").animate({
+  //   fontSize: "20px"
   // }, 1000)
