@@ -1,10 +1,14 @@
 $(function () {
-
   $('.blue-box').animate({
-    "margin-left": "+=200px"
+    "margin-left": "+=200px",
+    "opacity": "0",
+    "height": "50px",
+    "width": "50px",
+    "margin-top": "25px"
   }, 1000)
-  .animate({
-    "margin-left": "-=200px"
+
+  $("p").animate({
+    fontSize: "20px"
   }, 1000)
 
 });
@@ -57,3 +61,10 @@ $(function () {
   // $('p').hide().slideDown(1000)
   // // Notice that fadeToggle fades back to the blue box's previous opacity,
   // // thus only back to 50% opacity.
+
+  // $('.blue-box').animate({
+  //   "margin-left": "+=200px"
+  // }, 1000)
+  // .animate({
+  //   "margin-left": "-=200px"
+  // }, 1000)
