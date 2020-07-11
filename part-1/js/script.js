@@ -1,8 +1,12 @@
 $(function () {
-  // Fade out element over 2000ms
-  $('.blue-box').slideToggle(1000)
 
-  $('p').hide().slideDown(1000)
+  $('.blue-box').animate({
+    "margin-left": "+=200px"
+  }, 1000)
+  .animate({
+    "margin-left": "-=200px"
+  }, 1000)
+
 });
 
 
@@ -47,5 +51,9 @@ $(function () {
   // $(".blue-box").fadeToggle();
   // $(".blue-box").fadeToggle();
 
+
+  // $('.blue-box').slideToggle(1000)
+
+  // $('p').hide().slideDown(1000)
   // // Notice that fadeToggle fades back to the blue box's previous opacity,
   // // thus only back to 50% opacity.
