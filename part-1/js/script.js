@@ -1,18 +1,6 @@
 $(function () {
-  // $("ul ul:first").append("<li>im gonna be the last sub-item</li>")
 
-  // $("<li>Last element of thing yeah</li>").appendTo("ul ul:first") also prependTo
-
-  // $("ul ul:first").prepend("<li>im gonna be the firs sub-item</li>")
-
-  // $(".red-box").after("<div class='red-box'>Another red</div>")
-  // $(".blue-box").before("<div class='blue-box'>Another blue</div>")
-
-  // $(".blue-box").before(() => {
-  //   return "<div class='blue-box'>Blue 2</div>"
-  // })
-
-  // $(".blue-box").before($(".red-box"))
+  
 
 });
 
@@ -144,8 +132,49 @@ $(function () {
   // $("li").last().css("background-color", "rgba(180, 180, 30, 0.8)")  
   // $("li").eq(4).css("background-color", "rgba(180, 180, 30, 0.8)")  
   // $("li").eq(-4).css("background-color", "rgba(180, 180, 30, 0.8)")  
-  $("li").not(":first").css("background-color", "rgba(180, 180, 30, 0.8)")  
+  // $("li").not(":first").css("background-color", "rgba(180, 180, 30, 0.8)")  
 
+//============================================================================================
+
+  // $("ul ul:first").append("<li>im gonna be the last sub-item</li>")
+
+  // $("<li>Last element of thing yeah</li>").appendTo("ul ul:first") also prependTo
+
+  // $("ul ul:first").prepend("<li>im gonna be the firs sub-item</li>")
+
+  // $(".red-box").after("<div class='red-box'>Another red</div>")
+  // $(".blue-box").before("<div class='blue-box'>Another blue</div>")
+
+  // $(".blue-box").before(() => {
+  //   return "<div class='blue-box'>Blue 2</div>"
+  // })
+
+  // $(".blue-box").before($(".red-box"))
+
+//============================================================================================
+
+  // $("li").replaceWith("<li>Replaced</li>")
+  // $("li").replaceWith(() => {
+  //   return "<li>Replaced with a function hahahaha</li>"
+  // })  
+
+  // const firstListItem = $("li:first")
+  // $("p:first").replaceWith(firstListItem)
+
+  // $(".green-box, .blue-box").replaceWith("<div class='red-box'>More Red</div>")
+
+  // $("<div class='red-box'>More Red</sdiv>").replaceAll(".green-box, .blue-box")
+
+//============================================================================================
+//============================================================================================
+//============================================================================================
+//============================================================================================
+//============================================================================================
+//============================================================================================
+//============================================================================================
+//============================================================================================
+//============================================================================================
+//============================================================================================
 //============================================================================================
 //============================================================================================
 //============================================================================================
