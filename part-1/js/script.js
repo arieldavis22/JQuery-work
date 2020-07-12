@@ -1,13 +1,18 @@
 $(function () {
-  // $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 30, 0.8)")
-  // $("li").filter((index) => {
-  //   return index % 3 === 2
-  // }).css("background-color", "rgba(180, 180, 30, 0.8)")
-  // $("li").first().css("background-color", "rgba(180, 180, 30, 0.8)")  
-  // $("li").last().css("background-color", "rgba(180, 180, 30, 0.8)")  
-  // $("li").eq(4).css("background-color", "rgba(180, 180, 30, 0.8)")  
-  // $("li").eq(-4).css("background-color", "rgba(180, 180, 30, 0.8)")  
-  $("li").not(":first").css("background-color", "rgba(180, 180, 30, 0.8)")  
+  // $("ul ul:first").append("<li>im gonna be the last sub-item</li>")
+
+  // $("<li>Last element of thing yeah</li>").appendTo("ul ul:first") also prependTo
+
+  // $("ul ul:first").prepend("<li>im gonna be the firs sub-item</li>")
+
+  // $(".red-box").after("<div class='red-box'>Another red</div>")
+  // $(".blue-box").before("<div class='blue-box'>Another blue</div>")
+
+  // $(".blue-box").before(() => {
+  //   return "<div class='blue-box'>Blue 2</div>"
+  // })
+
+  // $(".blue-box").before($(".red-box"))
 
 });
 
@@ -130,6 +135,17 @@ $(function () {
   // $("#list").next().css("background-color", "rgba(180, 180, 30, 0.8)")
 
 //============================================================================================
+
+  // $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 30, 0.8)")
+  // $("li").filter((index) => {
+  //   return index % 3 === 2
+  // }).css("background-color", "rgba(180, 180, 30, 0.8)")
+  // $("li").first().css("background-color", "rgba(180, 180, 30, 0.8)")  
+  // $("li").last().css("background-color", "rgba(180, 180, 30, 0.8)")  
+  // $("li").eq(4).css("background-color", "rgba(180, 180, 30, 0.8)")  
+  // $("li").eq(-4).css("background-color", "rgba(180, 180, 30, 0.8)")  
+  $("li").not(":first").css("background-color", "rgba(180, 180, 30, 0.8)")  
+
 //============================================================================================
 //============================================================================================
 //============================================================================================
