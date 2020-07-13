@@ -1,7 +1,16 @@
 $(function () {
 
-  
+  // $("input").not("[type='text']").remove()
 
+  // $('form').children().not("input:text, textarea, br").remove()
+
+// const detachedList = $("li").detach()
+// $("#content").append(detachedList)
+
+// $("p:first").empty()
+
+
+  // $(".red-box, .blue-box, .green-box").empty()
 });
 
 
