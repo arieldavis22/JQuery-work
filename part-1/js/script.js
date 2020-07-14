@@ -1,16 +1,17 @@
 $(function () {
+  // attr(), prop(), val()
 
-  // $("input").not("[type='text']").remove()
+  // let link = $("#link")
+  // console.log(link.attr("href"))
 
-  // $('form').children().not("input:text, textarea, br").remove()
+  // link.attr("href", "http://google.com")
 
-// const detachedList = $("li").detach()
-// $("#content").append(detachedList)
+  // const checkbox = $("input:checkbox")
+  // console.log(checkbox.prop("checked"))
 
-// $("p:first").empty()
-
-
-  // $(".red-box, .blue-box, .green-box").empty()
+  // let input = $("input:text")
+  // console.log(input.val())
+  // input.val("test haha")
 });
 
 
@@ -175,6 +176,19 @@ $(function () {
   // $("<div class='red-box'>More Red</sdiv>").replaceAll(".green-box, .blue-box")
 
 //============================================================================================
+
+  // $("input").not("[type='text']").remove()
+
+  // $('form').children().not("input:text, textarea, br").remove()
+
+// const detachedList = $("li").detach()
+// $("#content").append(detachedList)
+
+// $("p:first").empty()
+
+
+  // $(".red-box, .blue-box, .green-box").empty()
+
 //============================================================================================
 //============================================================================================
 //============================================================================================
