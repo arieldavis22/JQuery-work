@@ -1,15 +1,12 @@
 $(function () {
-  //text(), html()
+  $("#btn-click").click(function(event) {
+    // alert("Button was clicked")
+    console.log(event)
+  })
 
-  let firstP = $("p:first")
-  console.log(firstP.text())
-  console.log(firstP.html());
-
-  // firstP.html("<strong>Hello World</strong>")
-
-  firstP.html(firstP.html() + " hahaha append") 
-  
-
+  $(".red-box").click(function() {
+    $(this).fadeTo(2000, 0.5)
+  })
 });
 
 
@@ -277,6 +274,17 @@ $(function () {
   // console.log(firstP.data("coolData"))
 
 //============================================================================================
+
+  // //text(), html()
+
+  // let firstP = $("p:first")
+  // console.log(firstP.text())
+  // console.log(firstP.html());
+
+  // // firstP.html("<strong>Hello World</strong>")
+
+  // firstP.html(firstP.html() + " hahaha append") 
+
 //============================================================================================
 //============================================================================================
 //============================================================================================
