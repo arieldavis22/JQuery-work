@@ -1,21 +1,14 @@
 $(function () {
-  const gallery = $(".gallery")
+  //text(), html()
 
-  const images = [
-  "images/laptop-mobile_small.jpg",
-  "images/laptop-on-table_small.jpg",
-  "images/people-office-group-team_small.jpg",    
-  ]
+  let firstP = $("p:first")
+  console.log(firstP.text())
+  console.log(firstP.html());
 
-  gallery.data("avImages", images)
-  console.log(gallery.data("avImages"))
-  gallery.data("coolName", "a cool name")
-  console.log(gallery.data())
-  gallery.removeData("coolName")
-  console.log(gallery.data())
+  // firstP.html("<strong>Hello World</strong>")
 
-  const firstP = $("p:first")
-  console.log(firstP.data("coolData"))
+  firstP.html(firstP.html() + " hahaha append") 
+  
 
 });
 
@@ -264,6 +257,25 @@ $(function () {
   // $(".dummy").removeClass("dummy").addClass("green-box")
 
 //============================================================================================
+
+  // const gallery = $(".gallery")
+
+  // const images = [
+  // "images/laptop-mobile_small.jpg",
+  // "images/laptop-on-table_small.jpg",
+  // "images/people-office-group-team_small.jpg",    
+  // ]
+
+  // gallery.data("avImages", images)
+  // console.log(gallery.data("avImages"))
+  // gallery.data("coolName", "a cool name")
+  // console.log(gallery.data())
+  // gallery.removeData("coolName")
+  // console.log(gallery.data())
+
+  // const firstP = $("p:first")
+  // console.log(firstP.data("coolData"))
+
 //============================================================================================
 //============================================================================================
 //============================================================================================
