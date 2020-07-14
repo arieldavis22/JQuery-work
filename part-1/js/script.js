@@ -1,17 +1,21 @@
 $(function () {
-  // attr(), prop(), val()
+  let galleryImage = $(".gallery").find("img").first()
 
-  // let link = $("#link")
-  // console.log(link.attr("href"))
+  const images = [
+    "images/laptop-mobile_small.jpg",
+    "images/laptop-on-table_small.jpg",
+    "images/people-office-group-team_small.jpg",    
+  ]
 
-  // link.attr("href", "http://google.com")
+  let i = 0
+  setInterval(() => {
+    i = (i + 1) % images.length // 0, 1, 2, 0, 1, 2, 0, 1, 2....
+    galleryImage.fadeOut(function() {
+      $(this).attr("src", images[i])
+      $(this).fadeIn()
+    })
+  }, 2000)
 
-  // const checkbox = $("input:checkbox")
-  // console.log(checkbox.prop("checked"))
-
-  // let input = $("input:text")
-  // console.log(input.val())
-  // input.val("test haha")
 });
 
 
@@ -190,6 +194,21 @@ $(function () {
   // $(".red-box, .blue-box, .green-box").empty()
 
 //============================================================================================
+
+  // attr(), prop(), val()
+
+  // let link = $("#link")
+  // console.log(link.attr("href"))
+
+  // link.attr("href", "http://google.com")
+
+  // const checkbox = $("input:checkbox")
+  // console.log(checkbox.prop("checked"))
+
+  // let input = $("input:text")
+  // console.log(input.val())
+  // input.val("test haha")
+
 //============================================================================================
 //============================================================================================
 //============================================================================================
