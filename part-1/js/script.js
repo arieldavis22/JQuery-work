@@ -1,19 +1,22 @@
 $(function () {
-  $("a").addClass("fancy-link") //class=...
-  $("p:first").addClass("large emphasize")
+  const gallery = $(".gallery")
 
-  $("li li").addClass(function(index) {
-    $(this).addClass(`item ${index}`)
-  })
+  const images = [
+  "images/laptop-mobile_small.jpg",
+  "images/laptop-on-table_small.jpg",
+  "images/people-office-group-team_small.jpg",    
+  ]
 
-  $("div").addClass(function(index, currentClass) {
-    if (currentClass === "dummy") {
-      return "red-box"
-    }
-  })
+  gallery.data("avImages", images)
+  console.log(gallery.data("avImages"))
+  gallery.data("coolName", "a cool name")
+  console.log(gallery.data())
+  gallery.removeData("coolName")
+  console.log(gallery.data())
 
-  // $(".red-box").removeClass("red-box").addClass("blue-box")
-  $(".dummy").removeClass("dummy").addClass("green-box")
+  const firstP = $("p:first")
+  console.log(firstP.data("coolData"))
+
 });
 
 
@@ -243,6 +246,23 @@ $(function () {
 // redBox.css("user-select", "none")
 
 //============================================================================================
+
+  // $("a").addClass("fancy-link") //class=...
+  // $("p:first").addClass("large emphasize")
+
+  // $("li li").addClass(function(index) {
+  //   $(this).addClass(`item ${index}`)
+  // })
+
+  // $("div").addClass(function(index, currentClass) {
+  //   if (currentClass === "dummy") {
+  //     return "red-box"
+  //   }
+  // })
+
+  // // $(".red-box").removeClass("red-box").addClass("blue-box")
+  // $(".dummy").removeClass("dummy").addClass("green-box")
+
 //============================================================================================
 //============================================================================================
 //============================================================================================
