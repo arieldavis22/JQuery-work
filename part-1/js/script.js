@@ -9,7 +9,21 @@ $(function () {
   //   $(this).text("I was hovered")
   // })
 
-  const blueBox = $(".blue-box")
+  // const blueBox = $(".blue-box")
+
+  // // blueBox.mouseenter(function() {
+  // //   $(this).stop().fadeTo(500, 0.5)
+  // // })
+  // // blueBox.mouseleave(function() {
+  // //   $(this).stop().fadeTo(500, 1)
+  // // })
+
+  // //hover(handlerIn, handlerOut)
+  // blueBox.hover(function() {
+  //   $(this).stop().fadeTo(500, 0.3)
+  // }, function() {
+  //   $(this).stop().fadeTo(500, 1)
+  // })
 
 });
 
