@@ -1,12 +1,16 @@
 $(function () {
-  $("#btn-click").click(function(event) {
-    // alert("Button was clicked")
-    console.log(event)
-  })
+  // :hover
 
-  $(".red-box").click(function() {
-    $(this).fadeTo(2000, 0.5)
-  })
+  // $("#btn-hover").hover(function() {
+  //   alert("You hovered over the button")
+  // })
+
+  // $(".green-box").hover(function() {
+  //   $(this).text("I was hovered")
+  // })
+
+  const blueBox = $(".blue-box")
+
 });
 
 
@@ -286,6 +290,16 @@ $(function () {
   // firstP.html(firstP.html() + " hahaha append") 
 
 //============================================================================================
+
+  // $("#btn-click").click(function(event) {
+  //   // alert("Button was clicked")
+  //   console.log(event)
+  // })
+
+  // $(".red-box").click(function() {
+  //   $(this).fadeTo(2000, 0.5)
+  // })
+
 //============================================================================================
 //============================================================================================
 //============================================================================================
